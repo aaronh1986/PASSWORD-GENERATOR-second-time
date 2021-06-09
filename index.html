@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PASSWORD GENERATOR second time</title>
+</head>
+<body>
+    <form name="generator">
+        <input id="uppercase" type="checkbox" name="uppercase" checked="checked">
+        <label for="uppercase">Uppercase</label>
+        <br>
+        <input id="lowercase" type="checkbox" name="lowercase" checked="checked">
+        <label for="lowercase">Lowercase</label>
+        <br>
+        <input id="numbers" type="checkbox" name="numbers">
+        <label for="numbers">Numbers</label>
+        <br>
+        <input id="symbols" type="checkbox" name="symbols">
+        <label for="symbols">Symbols</label>
+        <br>
+        Password Length: <input type="text" name="length" value="10">
+        <br>
+        No. of Passwords: <input type="text" name="count" value="10">
+        <br><br>
+        <button type="button" onclick="getPasswords()">Generate</button>
+        <hr>
+    </form>
+    <br>
+    <ul id="passwords"></ul>
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
